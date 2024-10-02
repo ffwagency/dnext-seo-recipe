@@ -1,5 +1,5 @@
 {
-    "name": "nikolabintev/seo_recipe",
+    "name": "nikolabintev/seo-recipe",
     "description": "Sets up modules and configurations for SEO",
     "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",
