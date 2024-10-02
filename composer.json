@@ -1,0 +1,16 @@
+{
+    "name": "nikolabintev/seo_recipe",
+    "description": "Sets up modules and configurations for SEO",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Nikola Bintev",
+            "homepage": "https://www.drupal.org/u/nikolabintev",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "drupal/metatag": "^2.0"
+    }
+}
