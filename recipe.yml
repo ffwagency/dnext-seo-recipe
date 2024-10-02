@@ -4,6 +4,7 @@ type: 'SEO'
 
 install:
   - metatag
+  - metatag:metatag_open_graph
 
 config:
   import:
