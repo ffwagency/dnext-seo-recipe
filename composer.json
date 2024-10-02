@@ -11,6 +11,7 @@
         }
     ],
     "require": {
-        "drupal/metatag": "^2.0"
+        "drupal/metatag": "^2.0",
+        "drupal/schema_metatag": "^3.0"
     }
 }

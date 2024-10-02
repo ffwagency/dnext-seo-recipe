@@ -5,6 +5,8 @@ type: 'SEO'
 install:
   - metatag
   - metatag:metatag_open_graph
+  - metatag:metatag_twitter_cards
+  - schema_metatag
 
 config:
   import:
