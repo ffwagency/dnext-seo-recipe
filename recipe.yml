@@ -1,8 +1,10 @@
 name: 'SEO'
 description: 'Sets up modules and configurations for SEO'
 type: 'SEO'
+
 install:
   - metatag
+
 config:
   import:
     metatag:
