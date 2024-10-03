@@ -12,7 +12,8 @@
     ],
     "require": {
         "drupal/metatag": "^2.0",
-        "drupal/schema_metatag": "^3.0",
-        "drupal/redirect":"^1.10"
+        "drupal/pathauto":"^1.13",
+        "drupal/redirect":"^1.10",
+        "drupal/schema_metatag": "^3.0"
     }
 }

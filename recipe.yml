@@ -6,6 +6,7 @@ install:
   - metatag
   - metatag:metatag_open_graph
   - metatag:metatag_twitter_cards
+  - pathauto
   - redirect
   - schema_metatag
   - schema_metatag:schema_web_site
