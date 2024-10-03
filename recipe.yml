@@ -12,6 +12,7 @@ install:
   - schema_metatag
   - schema_metatag:schema_web_site
   - schema_metatag:schema_web_page
+  - simple_sitemap
 
 config:
   import:
