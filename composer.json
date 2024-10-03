@@ -14,6 +14,7 @@
         "drupal/metatag": "^2.0",
         "drupal/pathauto":"^1.13",
         "drupal/redirect":"^1.10",
+        "drupal/robotstxt":"^1.16",
         "drupal/schema_metatag": "^3.0"
     }
 }

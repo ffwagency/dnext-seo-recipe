@@ -8,6 +8,7 @@ install:
   - metatag:metatag_twitter_cards
   - pathauto
   - redirect
+  - robotstxt
   - schema_metatag
   - schema_metatag:schema_web_site
   - schema_metatag:schema_web_page
@@ -25,3 +26,8 @@ config:
       - metatag.settings
     redirect:
       - redirect.settings
+    pathauto:
+      - pathauto.settings
+      - pathauto.pattern.content
+      - pathauto.pattern.taxonomy_term
+      - pathauto.pattern.user
