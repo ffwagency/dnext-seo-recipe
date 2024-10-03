@@ -32,3 +32,10 @@ config:
       - pathauto.pattern.content
       - pathauto.pattern.taxonomy_term
       - pathauto.pattern.user
+    simple_sitemap:
+      - simple_sitemap.custom_links.default
+      - simple_sitemap.settings
+      - simple_sitemap.sitemap.content
+      - simple_sitemap.sitemap.index
+      - simple_sitemap.type.content
+      - simple_sitemap.type.index

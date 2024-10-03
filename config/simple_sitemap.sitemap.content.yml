@@ -1,0 +1,11 @@
+uuid: 6a284166-e826-4837-b6fa-a7ed6a90c28f
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_sitemap.type.content
+id: content
+label: Content
+description: ''
+type: content
+weight: 0

@@ -1,0 +1,11 @@
+uuid: fe05eb72-77df-4924-9004-26a52ffa207a
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_sitemap.type.index
+id: index
+label: Index
+description: ''
+type: index
+weight: 0

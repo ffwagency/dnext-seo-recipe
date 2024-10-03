@@ -1,0 +1,10 @@
+uuid: 6d1525e4-00d3-4c9c-a088-60b866b0202b
+langcode: en
+status: true
+dependencies: {  }
+id: content
+label: Content
+description: ''
+sitemap_generator: default
+url_generators:
+  entity: entity
