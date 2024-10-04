@@ -1,5 +1,12 @@
 # SEO Recipe for Drupal
 
+## Table of Contents
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Applying the recipe](#applying-the-recipe)
+- [Features](#features)
+
 ---
 
 ## Overview
@@ -63,5 +70,35 @@ Apply the recipe using the following command:
 php web/core/scripts/drupal recipe web/recipes/contrib/seo-recipe
 
 ```
-
 ---
+
+## Features
+
+_The features below are general configurations. Content type-specific (or entity type-specific) configurations must be
+captured in separate recipes._
+
+### Metatags
+The [metatags](https://www.drupal.org/project/metatag) setup includes both basic and advanced tags as well as Opem Graph and Twitter Cards configurations.
+
+### Schema.org
+Based on the [schemaorg module](https://www.drupal.org/project/schemaorg), it enhances the global metatag configuration with website and web page data.
+
+### URL aliases
+The [pathauto module](https://www.drupal.org/project/pathauto) is set up so it generate URL aliases for the following entity types:
+- Nodes: `[node:title]`
+- Taxonomy terms: `[term:name]`
+- Users: `u/[user:account-name]`
+
+### Redirects
+The [redirect module](https://www.drupal.org/project/redirect) is installed and configured so when a URL is changed, a redirect is created to the new URL.
+
+### Robots.txt
+The [robots.txt module](https://www.drupal.org/project/robotstxt) allows you to maintain different robots.txt files if the same codebase is used for many sites.
+
+### XML Sitemap
+The XML sitemaps are based on the [Simple Sitemap module](https://www.drupal.org/project/simple_sitemap). It comes with two sitemap types: index and content.
+The index sitemap includes links to all other sitemaps, whereas the content sitemap includes links to all content entities. It is worth mentioning that the
+content sitemap isn't configured to include any content types as this is a content type-agnostic setup and should be configured per site.
+
+_None of the sitemaps will be generated until the content sitemap is configured to include specific content types. This
+is a per site configuration_
