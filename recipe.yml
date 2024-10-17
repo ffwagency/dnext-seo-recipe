@@ -16,25 +16,16 @@ install:
 
 config:
   import:
-    metatag:
-      - metatag.metatag_defaults.403
-      - metatag.metatag_defaults.404
-      - metatag.metatag_defaults.front
-      - metatag.metatag_defaults.global
-      - metatag.metatag_defaults.node
-      - metatag.metatag_defaults.taxonomy_term
-      - metatag.metatag_defaults.user
-      - metatag.settings
+    metatag: '*'
     redirect:
-      - redirect.settings
+      - system.action.redirect_delete_action
+      - views.view.redirect
     pathauto:
-      - pathauto.settings
       - pathauto.pattern.content
       - pathauto.pattern.taxonomy_term
       - pathauto.pattern.user
     simple_sitemap:
       - simple_sitemap.custom_links.default
-      - simple_sitemap.settings
       - simple_sitemap.sitemap.content
       - simple_sitemap.sitemap.index
       - simple_sitemap.type.content
