@@ -8,7 +8,6 @@ install:
   - metatag:metatag_twitter_cards
   - pathauto
   - redirect
-  - redirect_404
   - robotstxt
   - schema_metatag
   - schema_metatag:schema_web_site
@@ -21,7 +20,6 @@ config:
     redirect:
       - system.action.redirect_delete_action
       - views.view.redirect
-    redirect_404: '*'
     pathauto:
       - pathauto.pattern.content
       - pathauto.pattern.taxonomy_term
@@ -32,8 +30,3 @@ config:
       - simple_sitemap.sitemap.index
       - simple_sitemap.type.content
       - simple_sitemap.type.index
-  actions:
-    redirect_404.settings:
-      simpleConfigUpdate:
-        suppress_404: true
-
