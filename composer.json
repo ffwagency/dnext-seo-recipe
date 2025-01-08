@@ -1,6 +1,6 @@
 {
-    "name": "nikolabintev/seo-recipe",
-    "description": "Sets up modules and configurations for SEO",
+    "name": "jakala/dnext-seo-recipe",
+    "description": "A powerful SEO toolkit for DNext applications, designed to optimize content for search engines",
     "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",
     "authors": [

@@ -1,4 +1,4 @@
-# SEO Recipe for Drupal
+# DNext - SEO Recipe
 
 ## Table of Contents
 - [Overview](#overview)
@@ -10,7 +10,7 @@
 ---
 
 ## Overview
-A powerful SEO toolkit for Drupal applications, designed to optimize content for search engines. This package provides configurable metadata management, schema markup, and URL handling, ensuring SEO best practices are maintained. Ideal for improving visibility and search rankings across your Drupal site.
+A powerful SEO toolkit for DNext applications, designed to optimize content for search engines. This package provides configurable metadata management, schema markup, and URL handling, ensuring SEO best practices are maintained. Ideal for improving visibility and search rankings across your Drupal site.
 
 ---
 
@@ -37,7 +37,7 @@ web/recipes/contrib
 "repositories": [
     {
         "type": "vcs",
-        "url": "https://github.com/nikolabintev/seo-recipe"
+        "url": "git@github.com:ffwagency/dnext-seo-recipe.git"
     }
 ]
 ```
@@ -58,17 +58,27 @@ web/recipes/contrib
 ### Require the package
 Require the package using composer.
 ```bash
-composer require nikolabintev/seo-recipe
+composer require ffwagency/dnext-seo-recipe
 ```
 
 ---
 
 ## Applying the recipe
 
-Apply the recipe using the following command:
-```bash
-php web/core/scripts/drupal recipe web/recipes/contrib/seo-recipe
+### Cache rebuild
+Before applying the recipe, ensure the cache is rebuilt, so the module and theme extensions are updated with
+the newly installed ones from the recipe.
 
+```bash
+drush cr
+```
+
+### Apply
+
+<strong>Important!</strong> The recipe must be applied within the Drupal container from Drupal's project root directory.
+```bash
+cd {PROJECT_ROOT}
+php core/scripts/drupal recipe recipes/contrib/dnext-seo-recipe
 ```
 ---
 

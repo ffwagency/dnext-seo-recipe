@@ -1,5 +1,5 @@
-name: 'SEO'
-description: 'Sets up modules and configurations for SEO'
+name: 'DNext - SEO Recipe'
+description: 'A powerful SEO toolkit for DNext applications, designed to optimize content for search engines'
 type: 'Site'
 
 install:
