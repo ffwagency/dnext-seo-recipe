@@ -58,7 +58,7 @@ web/recipes/contrib
 ### Require the package
 Require the package using composer.
 ```bash
-composer require ffwagency/dnext-seo-recipe
+composer require jakala/dnext-seo-recipe
 ```
 
 ---
