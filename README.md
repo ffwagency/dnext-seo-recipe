@@ -77,7 +77,6 @@ drush cr
 
 <strong>Important!</strong> The recipe must be applied within the Drupal container from Drupal's project root directory.
 ```bash
-cd {PROJECT_ROOT}
 php core/scripts/drupal recipe recipes/contrib/dnext-seo-recipe
 ```
 ---
